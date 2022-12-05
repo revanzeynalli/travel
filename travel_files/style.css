@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* header css start  */
+
+
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-image: url(IMG/one.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    padding-top: 30px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.icon {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.one {
+    margin-top: 210px;
+
+}
+
+.one h1 {
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #ffff;
+    font-weight: 300;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.one form input {
+    width: 326px;
+    height: 40px;
+    background-color: #ffffff;
+    border: none;
+}
+
+.one form button {
+    width: 122px;
+    height: 40px;
+    background-color: #fd4f32;
+    border: none;
+}
+
+.one form {
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin-top: 40px;
+    padding-bottom: 335px;
+}
+
+.one input::placeholder {
+    padding-left: 15px;
+}
+
+/* header css end */
+
+
+
+
+
+/* body css start  */
+
+
+
+#kdb {
+    background-color: #eeeeee;
+}
+
+.two h2 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: left;
+    padding-top: 60px;
+    margin-bottom: 15px;
+}
+
+.two p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.section_body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section_body h3 {
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.section_body p {
+    width: 204px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #696969;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-bottom: 0;
+}
+
+.section_body .time_body {
+    background-color: #ffffff;
+    padding: 20px 0 20px 20px;
+    width: 230px;
+}
+
+.section_body img {
+    width: 230px;
+}
+
+.section_body div {
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#section_footer {
+    background-color: #fff;
+}
+
+#section_footer h1 {
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #323232;
+    font-weight: 300;
+    font-family: "Open Sans";
+    padding-top: 80px;
+}
+
+
+.text_body {
+    display: flex;
+}
+
+
+.text_body h2 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding-top: 70px;
+}
+
+.text_body p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding-top: 20px;
+}
+
+.messi_body {
+    margin-left: 70px;
+}
+
+.ronaldo_body {
+
+    margin-left: 70px;
+}
+
+.button_text {
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 80px;
+}
+
+.button_text h3 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.inp form {
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin-top: 30px;
+
+}
+
+.inp form input {
+    width: 330px;
+    padding: 10px;
+}
+
+.inp form button {
+    background-color: #fd4f32;
+    border: none;
+    padding: 12px;
+
+}
+.inp form {
+    margin-bottom: 70px;
+}
+
+/* body css end  */
+
+
+
+/* footer css start  */
+
+
+#div {
+    background-color: #eeeeee;
+}
+
+.nav p {
+    padding: 30px 0 30px 0;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
